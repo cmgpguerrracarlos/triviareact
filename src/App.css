@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: aqua;
+  color: blue;
 }
 
 .App-logo {
@@ -35,4 +37,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  border:3px solid #282c34;
+  background-color: bisque;
+  color: black;
+}
+
+.main{
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.item button{
+  margin: 10px 5px;
+  width: 100%;
+}
+
+.header{
+  margin: 20px;
+  padding: 0px;
+  border:3px solid #b3c8f3;
+  min-height: 100px;
+}
+
+.table{
+  margin: 10px auto;
+}
+
+.table td,th{
+  border:2px solid #282c34;
+}
+
+td img{
+  width: 400px;
+  margin: 0px;
+  padding: 0px;
 }
